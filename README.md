@@ -4,7 +4,7 @@
 
 [Yale Privacy Lab](https://privacylab.yale.edu) explores the connection between privacy, security, and anonymity through hands-on software and hardware implementation. It provides cybersecurity workshops and demonstrations, strengthening the networks between technologists, lawyers, students, and researchers.
 
-Yale Privacy Lab is an iniative of the [Information Society Project](https://www.law.yale.edu/isp) at Yale Law School. It is currently a volunteer effort driven by founder and Lab Director [Sean O'Brien](https://webio.me) and Lab Coordinator [Michael Kwet](https://mikekwet.com).
+Yale Privacy Lab is an initiative of the [Information Society Project](https://www.law.yale.edu/isp) at Yale Law School. It is currently a volunteer effort driven by founder and Lab Director [Sean O'Brien](https://webio.me) and Lab Coordinator [Michael Kwet](https://mikekwet.com).
 
 ## Directory Purpose
 
