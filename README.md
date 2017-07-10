@@ -29,7 +29,7 @@ See the directory in action on the Yale Privacy Lab website:
 # Licensing
 [Bootstrap](https://getbootstrap.com) and [jQuery](https://jquery.com/) are released under the [MIT/Expat license](https://opensource.org/licenses/MIT).
 
-Image sources are detailed in `img/SOURCES`.
+Image sources are detailed in `docs/img/SOURCES`.
 
 This work as a whole is released under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html).
   
