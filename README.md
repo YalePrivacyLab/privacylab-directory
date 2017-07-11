@@ -8,14 +8,14 @@ Yale Privacy Lab is an initiative of the [Information Society Project](https://w
 
 ## Directory Purpose
 
-We’re often challenged to communicate over surveillance networks, trading privacy for convenience. As a community that values privacy, security, and anonymity, we need accurate and verifiable contacts, whether we intend to share secrets or just chat.
+We’re often challenged to communicate over surveillance networks, trading privacy for convenience. As a community that values privacy and security, we need accurate and verifiable contacts, whether we intend to share secrets or just chat.
 
 The heart of every network needs healthy information to keep beating. This directory intends to provide that data, in an attempt to strengthen our bonds and increase our strength.
 
 Sure, you can look up e-mail addresses in a [keyserver](https://pgp.mit.edu) or find people on [Keybase](https://keybase.io). This directory serves a different purpose, connecting you specifically with Yale Privacy Lab and professionals trained in digital self-defense in the Yale and New Haven communities. Our network centers around the [Information Society Project](https://law.yale.edu/isp), [Yale Law School](https://www.law.yale.edu), and [YLS Clinics](https://law.yale.edu/clinics/our-clinics) and reaches outward to privacy-respecting friends and colleagues at other institutions.
 
 For more information, read the detailed description on the Yale Privacy Lab website:
-[https://privacylab.yale.edu/directory-readme](https://privacylab.yale.edu/directory-readme)
+[https://privacylab.yale.edu/directory-guide](https://privacylab.yale.edu/directory-guide)
 
 ## Examples:
 
