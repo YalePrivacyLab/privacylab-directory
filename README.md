@@ -19,11 +19,11 @@ For more information, read the detailed description on the Yale Privacy Lab webs
 
 ## Examples:
 
-![Privacy Lab Directory Entry](https://github.com/seandiggity/privacylab-directory/raw/master/img/examples/example-directory_entry.png)
+[![Privacy Lab Directory Entry](https://github.com/seandiggity/privacylab-directory/raw/master/img/examples/example-directory_entry.png)](https://seandiggity.github.io/privacylab-directory/example.html)
 
-![Privacy Lab Directory Entry](https://github.com/seandiggity/privacylab-directory/raw/master/img/examples/example-directory_entry_highlights.png)
+[![Privacy Lab Directory Entry](https://github.com/seandiggity/privacylab-directory/raw/master/img/examples/example-directory_entry_highlights.png)](https://seandiggity.github.io/privacylab-directory/example.html)
 
-See the directory in action on the Yale Privacy Lab website:
+[View this example](https://seandiggity.github.io/privacylab-directory/example.html) or browse the directory on the Yale Privacy Lab website:
 [https://privacylab.yale.edu/directory](https://privacylab.yale.edu/directory)
 
 # Licensing
