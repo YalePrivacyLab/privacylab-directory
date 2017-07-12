@@ -18,8 +18,8 @@
    inkscape:version="0.92.1 r15371"
    sodipodi:docname="example-directory_entry_highlights.svg"
    inkscape:export-filename="/home/diggity/git/privacylab-directory/docs/img/examples/example-directory_entry_highlights.png"
-   inkscape:export-xdpi="96.074806"
-   inkscape:export-ydpi="96.074806">
+   inkscape:export-xdpi="86.978607"
+   inkscape:export-ydpi="86.978607">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -30,8 +30,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="279.41205"
-     inkscape:cy="157.78758"
+     inkscape:cx="300.6035"
+     inkscape:cy="153.74697"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -86,7 +86,7 @@
        x="55.716667"
        y="184.06372" />
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#d4aa00;stroke-width:0.66145831;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#d4aa00;stroke-width:0.66145833;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4582-3-5-6-1"
        width="124.42822"
        height="5.2762008"
@@ -129,7 +129,7 @@
          y="190.89616"
          style="fill:#466398;fill-opacity:1;stroke-width:0.14581217px">org</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#468598;stroke-width:0.66145831;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#468598;stroke-width:0.66145833;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4582-3-5"
        width="27.012026"
        height="8.870574"
@@ -147,7 +147,7 @@
          y="190.89616"
          style="fill:#468598;fill-opacity:1;stroke-width:0.14581217px">name</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#834698;stroke-width:0.66145831;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#834698;stroke-width:0.66145833;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4582-3-5-6"
        width="32.943798"
        height="6.0008402"
@@ -201,7 +201,7 @@
          y="207.80833"
          style="fill:#917c6f;fill-opacity:1;stroke-width:0.11134991px">website</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#8b8b8b;stroke-width:0.62855631;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#8b8b8b;stroke-width:0.66145833;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4582-3-5-3"
        width="29.645233"
        height="26.753433"
@@ -230,7 +230,7 @@
          y="218.84007"
          style="fill:#d4aa00;fill-opacity:1;stroke-width:0.11134991px">short bio</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#3397c4;stroke-width:0.66145831;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#3397c4;stroke-width:0.66145833;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4582-3-5-6-1-9"
        width="124.13764"
        height="12.906476"
@@ -248,7 +248,7 @@
          y="230.98772"
          style="font-size:5.83248663px;fill:#3397c4;fill-opacity:1;stroke-width:0.11134991px">e-mail</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#008080;stroke-width:0.66145831;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#008080;stroke-width:0.66145833;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4582-3-5-6-1-9-7"
        width="124.2479"
        height="7.9797678"
@@ -266,7 +266,7 @@
          y="243.57364"
          style="font-size:5.83248663px;fill:#008080;fill-opacity:1;stroke-width:0.11134991px">mobile</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.66145831;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#aa0000;stroke-width:0.66145833;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4582-3-5-6-1-9-7-2"
        width="140.35188"
        height="8.7715607"
@@ -284,7 +284,7 @@
          y="255.7235"
          style="font-size:4.45399618px;fill:#aa0000;fill-opacity:1;stroke-width:0.11134991px">&quot;ask me&quot;</tspan></text>
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#d45500;stroke-width:0.66145831;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#d45500;stroke-width:0.66145833;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4582-3-5-6-1-9-7-2-3"
        width="140.30197"
        height="7.9948678"
