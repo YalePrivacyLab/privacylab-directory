@@ -19,25 +19,23 @@ For more information, read the detailed description on the Yale Privacy Lab webs
 
 ## Examples:
 
-[![Privacy Lab Directory Entry](https://github.com/seandiggity/privacylab-directory/raw/master/docs/img/examples/example-directory_entry.png)](https://seandiggity.github.io/privacylab-directory/example.html)
+[![Privacy Lab Directory Entry](https://github.com/yaleprivacylab/privacylab-directory/raw/master/docs/img/examples/example-directory_entry.png)](https://yaleprivacylab.github.io/privacylab-directory/example.html)
 
-[![Privacy Lab Directory Entry](https://github.com/seandiggity/privacylab-directory/raw/master/docs/img/examples/example-directory_entry_highlights.png)](https://seandiggity.github.io/privacylab-directory/example.html)
+[![Privacy Lab Directory Entry](https://github.com/yaleprivacylab/privacylab-directory/raw/master/docs/img/examples/example-directory_entry_highlights.png)](https://yaleprivacylab.github.io/privacylab-directory/example.html)
 
-[View this example](https://seandiggity.github.io/privacylab-directory/example.html) or browse the directory on the Yale Privacy Lab website:
+[View this example](https://yaleprivacylab.github.io/privacylab-directory/example.html) or browse the directory on the Yale Privacy Lab website:
 [https://privacylab.yale.edu/directory](https://privacylab.yale.edu/directory)
 
 ## Verification
 
-Each HTML file in this directory has been signed using the private [Privacy Lab PGP/GPG key](https://pgp.mit.edu/pks/lookup?op=vindex&search=0xE2F46765F3A79924). If you have trust in that key you can verify that this page has not been tampered with 
+HTML files containing directory entries have been signed with the Yale Privacy Lab PGP/GPG private key and may be verified using the [public key](https://pgp.mit.edu/pks/lookup?op=vindex&search=0xE2F46765F3A79924).  SHA-512 checksums are also published for each document and PGP/GPG signature file.
 
 # Licensing
-[Bootstrap](https://getbootstrap.com) and [jQuery](https://jquery.com/) are released under the [MIT/Expat license](https://opensource.org/licenses/MIT).
+[Bootstrap](https://getbootstrap.com) and [jQuery](https://jquery.com/) are released under the [MIT/Expat license](https://opensource.org/licenses/MIT).  The directory uses [JavaScript Web Labels](https://www.gnu.org/software/librejs/manual/librejs.html#JavaScript-Web-Labels) for LibreJS.  Refer to `docs/weblabels.html` for links to non-minified JS and CSS source code.
 
 Image sources are detailed in `docs/img/SOURCES`.
 
 This work as a whole is released under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html).
-  
-_TODO: Add [JavaScript Web Labels](https://www.gnu.org/software/librejs/manual/librejs.html#JavaScript-Web-Labels) for LibreJS._
 
 _TODO: Clean up image source information_
 
