@@ -1,209 +1,91 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <title>Yale Privacy Lab Directory</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/vertical.css" rel="stylesheet">
-<style>
-   .media
-    {
-        /*box-shadow:0px 0px 4px -2px #000;*/
-        margin: 20px 0;
-        padding:30px;
-    }
-    .dp
-    {
-        border:10px solid #eee;
-        transition: all 0.2s ease-in-out;
-    }
-    .dp:hover
-    {
-        border:2px solid #eee;
-        transform:rotate(360deg);
-        -ms-transform:rotate(360deg);  
-        -webkit-transform:rotate(360deg);  
-        /*-webkit-font-smoothing:antialiased;*/
-    }
-</style>
-
+	<meta charset="UTF-8">
+	<title>Yale Privacy Lab Directory</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script> 
+	<script src="js/bootstrap-3.3.7.min.js" type="text/javascript"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-
-<div class="row">
-
-
-    <div class="col-lg-7">
-        <div class="media">
-            <a class="pull-left" href="https://webio.me" target="_blank">
-                <img class="media-object dp img-circle" src="img/photos/sean-obrien.jpg" alt="Sean O&quo;Brien" style="width: 100px;height:100px;">
-            </a>
-            <div class="media-body">
-                <h4 class="media-heading">Sean O'Brien <small> <a href="https://www.law.yale.edu/isp" target="_blank" style="margin:0 6px;">Information Society Project at YLS</a> 
-
-                <a href="https://fsf.org" target="_blank"><img src="img/icons/icon-fsf.svg" style="width:24px;height:24px;margin:0 6px" /></a>
-
-                <a href="http://makehaven.org" target="_blank"><img src="img/icons/icon-makehaven.svg" style="width:24px;height:24px;margin:0 6px" /></a>
-
-                <a href="https://mayfirst.org" target="_blank"><img src="img/icons/icon-mayfirst.svg" style="width:24px;height:24px;margin:0 6px" /></a>
-
-                </small></h4>
-                <h5><a href="https://privacylab.yale.edu" target="_blank"><img src="img/icons/icon-privacylab-shield.svg" style="width:24px;height:24px;margin:0 6px;color:#00356B;" />Lab Director</a>, Technologist 
-                        <span style="margin:0 6px;">🌐 <a href="https://webio.me" target="_blank">https://webio.me</a></span></h5>
-                <hr style="margin:8px auto">
-
-                <p>Founder of Privacy Lab. Facilitates Privacy Lab workshops, develops training materials, and leads <em>Cyber Freedom and Security</em> reading group at Yale Law School.</p>
-
-                <p><a href="https://www.enigmail.net" target="_blank"><img src="img/icons/icon-gpg.svg" style="width:24px;height:24px;margin:0 6px" /></a><strong>PGP/GPG:</strong> <a href="mailto:sean@webio.me">sean@webio.me</a> <br><a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0x5C48755A03C4314C" target="_blank" style="margin-left: 36px;">2334 F95E 580C 5130 FCAB D5C6 5C48 755A 03C4 314C</a></p>
-
-                <p><a href="https://5july.org/jabber/" target="_blank"><img src="img/icons/icon-xmpp.svg" style="width:24px;height:24px;margin:0 6px" /></a><a href="https://5july.org/jabber/" target="_blank"><strong>Jabber/XMPP:</strong></a>  sdiggity@jabber.member.fsf.org</p>
-                
-                <p><a href="https://wire.com" target="_blank"><img src="img/icons/icon-wire.svg" style="width:24px;height:24px;margin:0 6px" /></a><a href="https://wire.com" target="_blank"><strong>Wire:</strong></a> @diggity</p>
-
-                <p><a href="https://riot.im" target="_blank"><img src="img/icons/icon-riot.svg" style="width:24px;height:24px;margin:0 6px" /></a><a href="https://riot.im" target="_blank"><strong>Riot:</strong></a> @diggity</p>
-
-                <p style="margin-top: 18px;">❓ <strong>Ask Me: </strong>
-
-                        <a href="https://whispersystems.org" target="_blank"><img src="img/icons/icon-signal.svg" style="width:24px;height:24px;margin:0 6px" />Signal/Noise</span></a>
-                        <a href="https://ricochet.im" target="_blank"><img src="img/icons/icon-ricochet.svg" style="width:24px;height:24px;margin:0 6px" />Ricochet</a>
-                        <a href="https://crypto.cat" target="_blank"><img src="img/icons/icon-cryptocat.svg" style="width:24px;height:24px;margin:0 6px" />Cryptocat</a>
-                        <a href="https://tox.chat" target="_blank"><img src="img/icons/icon-tox.svg" style="width:24px;height:24px;margin:0 6px" />Tox</a>
-
-		</p>
-
-                <p style="margin-top: 18px;">🛠 <strong>Toolkit: </strong>
-                        <a href="https://torproject.org" target="_blank"><span class="label" style="background-color:#7D4698;margin:0 6px;">Tor+</span></a>
-                        <a href="https://getgnulinux.org" target="_blank"><span class="label" style="background-color:#46637D;margin:0 6px 0 0;">GNU/Linux+</span></a>
-                        <a href="https://meet.jit.si" target="_blank"><span class="label" style="background-color:#3397C4;margin:0 6px 0 0;">Jitsi Meet</span></a>
-                        <a href="https://pad.riseup.net" target="_blank"><span class="label" style="background-color:#D00000;margin:0 6px 0 0;">Etherpad</span></a>
-                        <a href="https://share.riseup.net" target="_blank"><span class="label" style="background-color:#333;margin:0 6px 0 0;">Up1</span></a>
-                        </div>
-
-                </p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="col-lg-7">
-        <div class="media">
-            <a class="pull-left" href="https://mikekwet.com" target="_blank">
-                <img class="media-object dp img-circle" src="img/photos/michael-kwet.jpg" alt="Michael Kwet" style="width: 100px;height:100px;">
-            </a>
-            <div class="media-body">
-                <h4 class="media-heading">Michael Kwet <small> <a href="https://www.law.yale.edu/isp" target="_blank" style="margin:0 6px;">Information Society Project at YLS</a> 
-
-                </small></h4>
-                <h5><a href="https://privacylab.yale.edu" target="_blank"><img src="img/icons/icon-privacylab-shield.svg" style="width:24px;height:24px;margin:0 6px;color:#00356B;" />Lab Coordinator</a>, Scholar 
-                        <span style="margin:0 6px;">🌐 <a href="https://mikekwet.com" target="_blank">https://mikekwet.com</a></span></h5>
-                <hr style="margin:8px auto">
-
-                <p>Visiting Fellow at ISP. Organizes workshops at the Privacy Lab and assists with training Privacy Lab participants.</p>
-
-                <p><a href="https://www.enigmail.net" target="_blank"><img src="img/icons/icon-gpg.svg" style="width:24px;height:24px;margin:0 6px" /></a><strong>PGP/GPG:</strong> <a href="mailto:mike@mikekwet.com">mike@mikekwet.com</a> <br><a href="http://pgp.mit.edu/pks/lookup?op=vindex&search=0x685B992BCAFA7AAC" target="_blank" style="margin-left: 36px;">B7D5 4180 7D04 DBBD 7571 53AB 685B 992B CAFA 7AAC</a></p>
-
-                <p style="margin-top: 18px;">❓ <strong>Ask Me: </strong>
-
-                        <a href="https://ricochet.im" target="_blank"><img src="img/icons/icon-ricochet.svg" style="width:24px;height:24px;margin:0 6px" />Ricochet</a>
-                        <a href="https://crypto.cat" target="_blank"><img src="img/icons/icon-cryptocat.svg" style="width:24px;height:24px;margin:0 6px" />Cryptocat</a>
-
-                        <a href="https://tox.chat" target="_blank"><img src="img/icons/icon-tox.svg" style="width:24px;height:24px;margin:0 6px" />Tox</a>
-
-		</p>
-
-                <p style="margin-top: 18px;">🛠 <strong>Toolkit: </strong>
-                        <a href="https://torproject.org" target="_blank"><span class="label" style="background-color:#7D4698;margin:0 6px;">Tor+</span></a>
-                        <a href="https://getgnulinux.org" target="_blank"><span class="label" style="background-color:#46637D;margin:0 6px 0 0;">GNU/Linux+</span></a>
-                        <a href="https://meet.jit.si" target="_blank"><span class="label" style="background-color:#3397C4;margin:0 6px 0 0;">Jitsi Meet</span></a>
-                        <a href="https://pad.riseup.net" target="_blank"><span class="label" style="background-color:#D00000;margin:0 6px 0 0;">Etherpad</span></a>
-                        <a href="https://share.riseup.net" target="_blank"><span class="label" style="background-color:#333;margin:0 6px 0 0;">Up1</span></a>
-                        </div>
-
-                </p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="col-lg-7">
-        <div class="media">
-            <a class="pull-left" href="https://law.yale.edu/mfia" target="_blank">
-                <img class="media-object dp img-circle" src="img/photos/hannah-bloch-wehba.jpg" alt="Hannah Bloch-Wehba" style="width: 100px;height:100px;">
-            </a>
-            <div class="media-body">
-                <h4 class="media-heading">Hannah Bloch-Wehba <small> <a href="https://www.law.yale.edu/mfia" target="_blank" style="margin:0 6px;">MFIA Clinic</a> 
-
-                <a href="https://eff.org" target="_blank"><img src="img/icons/icon-eff.svg" style="width:24px;height:24px;margin:0 6px" /></a>
-
-                </small></h4>
-                <h5><a href="https://privacylab.yale.edu" target="_blank"><img src="img/icons/icon-privacylab-shield.svg" style="width:24px;height:24px;margin:0 6px;color:#00356B;" />Privacy Trainer</a>, Scholar 
-                        <span style="margin:0 6px;">🌐 <a href="https://law.yale.edu/mfia" target="_blank">https://law.yale.edu/mfia</a></span></h5>
-                <hr style="margin:8px auto">
-
-                <p>Supervising attorney and Stanton Foundation First Amendment Fellow
-at MFIA Clinic.</p>
-
-                <p><a href="https://www.enigmail.net" target="_blank"><img src="img/icons/icon-gpg.svg" style="width:24px;height:24px;margin:0 6px" /></a><strong>PGP/GPG:</strong> <a href="mailto:hannah.bloch-wehba@ylsclinics.org">hannah.bloch-wehba@ylsclinics.org</a> <br><a href="http://pgp.mit.edu/pks/lookup?op=vindex&search=0x9755C9E35548B623" target="_blank" style="margin-left: 36px;">AEE0 A11F 5CDD 42A2 AF00 C7FD 9755 C9E3 5548 B623</a></p>
-
-                <p style="margin-top: 18px;">❓ <strong>Ask Me: </strong>
-
-                        <a href="https://whispersystems.org" target="_blank"><img src="img/icons/icon-signal.svg" style="width:24px;height:24px;margin:0 6px" />Signal/Noise</a>
-		</p>
-
-                <p style="margin-top: 18px;">🛠 <strong>Toolkit: </strong>
-                        <a href="https://law.yale.edu/mfia" target="_blank"><span class="label" style="background-color:#00356B;margin:0 6px;">Legal Clinic</span></a>
-                        <a href="https://meet.jit.si" target="_blank"><span class="label" style="background-color:#3397C4;margin:0 6px 0 0;">Jitsi Meet</span></a>
-                        <a href="https://pad.riseup.net" target="_blank"><span class="label" style="background-color:#D00000;margin:0 6px 0 0;">Etherpad</span></a>
-                        <a href="https://share.riseup.net" target="_blank"><span class="label" style="background-color:#333;margin:0 6px 0 0;">Up1</span></a>
-                        </div>
-
-                </p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="col-lg-7">
-        <div class="media">
-            <a class="pull-left" href="https://crootof.com">
-                <img class="media-object dp img-circle" src="img/photos/rebecca-crootof.jpg" alt="Rebecca Crootof" style="width: 100px;height:100px;">
-            </a>
-            <div class="media-body">
-                <h4 class="media-heading">Rebecca Crootof <small> <a href="https://www.law.yale.edu/isp" target="_blank" style="margin:0 6px;">Information Society Project at YLS</a> 
-
-                </small></h4>
-                <h5>Lecturer, Scholar 
-                        <span style="margin:0 6px;">🌐 <a href="https://crootof.com" target="_blank">https://crootof.com</a></span></h5>
-                <hr style="margin:8px auto">
-
-                <p>Lecturer in Law and Research Scholar, Yale Law School; Executive Director, Information Society Project.</p>
-
-                <p><a href="https://www.enigmail.net" target="_blank"><img src="img/icons/icon-gpg.svg" style="width:24px;height:24px;margin:0 6px" /></a><strong>PGP/GPG:</strong> <a href="mailto:rcrootof@gmail.com">rcrootof@gmail.com</a> <br><a href="http://pgp.mit.edu/pks/lookup?op=vindex&search=0x63AB6EB78F921967" target="_blank" style="margin-left: 36px;">09A9 FF38 3475 D2BB A86D 117C 63AB 6EB7 8F92 1967</a></p>
-
-                <p style="margin-top: 18px;">❓ <strong>Ask Me: </strong>
-
-                        <a href="https://whispersystems.org" target="_blank"><img src="img/icons/icon-signal.svg" style="width:24px;height:24px;margin:0 6px" />Signal/Noise</a>
-		</p>
-
-                <p style="margin-top: 18px;">🛠 <strong>Toolkit: </strong>
-                        <a href="https://torproject.org" target="_blank"><span class="label" style="background-color:#7D4698;margin:0 6px;">Tor</span></a>
-                        <a href="https://share.riseup.net" target="_blank"><span class="label" style="background-color:#333;margin:0 6px 0 0;">Up1</span></a>
-                        </div>
-
-                </p>
-            </div>
-        </div>
-
-    </div>
-
-
-    
-
-</div>
-
-    <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
+	<a id="top" name="top">
+	<div class="row">
+	<!-- Directory Entry -->
+	<div class="col-lg-7 entry">
+		<div class="media">
+			<a class="pull-left" href="https://webio.me" target="_blank"><img alt="Sean O&amp;quo;Brien" class="media-object dp img-circle photo" src="img/photos/sean-obrien.jpg"></a>
+			<div class="media-body">
+				<h4 class="media-heading">Sean O'Brien <small><a class="organization" href="https://www.law.yale.edu/isp" target="_blank">Information Society Project at YLS</a> <a href="https://fsf.org" target="_blank"><img alt="Free Software Foundation" class="affiliation-icon" src="img/icons/icon-fsf.svg"></a> <a href="http://makehaven.org" target="_blank"><img alt="MakeHaven" class="affiliation-icon" src="img/icons/icon-makehaven.svg"></a> <a href="https://mayfirst.org" target="_blank"><img alt="Mayfirst/PeopleLink" class="affiliation-icon" src="img/icons/icon-mayfirst.svg"></a></small></h4>
+				<h5><a href="https://privacylab.yale.edu/about" target="_blank"><img alt="Privacy Lab" class="privacylab-icon" src="img/icons/icon-privacylab-shield.svg">Lab Director</a>, Technologist <span class="website">🌐 <a href="https://webio.me" target="_blank">https://webio.me</a></span></h5>
+				<hr class="divider">
+				<p>Founder of Privacy Lab. Facilitates Privacy Lab workshops, develops training materials, and leads <em>Cyber Freedom and Security</em> reading group at Yale Law School.</p>
+				<p><a href="https://www.enigmail.net" target="_blank"><img alt="GPG" class="icon" src="img/icons/icon-gpg.svg"></a><strong>PGP/GPG:</strong> <a href="mailto:sean@webio.me">sean@webio.me</a><br>
+				<a class="gpg-fingerprint" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x5website8755A03website314C" target="_blank">2334 F95E 580C 5130 FCAB D5gpg-fingerprint 5website8 755A 03website 314C</a></p>
+				<p><a href="https://5july.org/jabber/" target="_blank"><img alt="Jabber/XMPP" class="icon" src="img/icons/icon-xmpp.svg"></a><a href="https://5july.org/jabber/" target="_blank"><strong>Jabber/XMPP:</strong></a> sdiggity@jabber.member.fsf.org</p>
+				<p><a href="https://wire.com" target="_blank"><img alt="Wire" class="icon" src="img/icons/icon-wire.svg"></a><a href="https://wire.com" target="_blank"><strong>Wire:</strong></a> @diggity</p>
+				<p><a href="https://riot.im" target="_blank"><img alt="Riot.im" class="icon" src="img/icons/icon-riot.svg"></a><a href="https://riot.im" target="_blank"><strong>Riot:</strong></a> @diggity</p>
+				<p class="ask-me">❓ <strong>Ask Me:</strong> <a href="https://whispersystems.org" target="_blank"><img alt="Signal/Noise" class="icon" src="img/icons/icon-signal.svg">Signal/Noise</a> <a href="https://ricochet.im" target="_blank"><img alt="Ricochet" class="icon" src="img/icons/icon-ricochet.svg">Ricochet</a> <a href="https://crypto.cat" target="_blank"><img alt="Cryptocat" class="icon" src="img/icons/icon-cryptocat.svg">Cryptocat</a> <a href="https://tox.chat" target="_blank"><img alt="Tox" class="icon" src="img/icons/icon-tox.svg">Tox</a></p>
+				<p class="toolkit">🛠 <strong>Toolkit:</strong> <a href="https://torproject.org" target="_blank"><span class="label toolkit-tor">Tor+</span></a> <a href="https://getgnulinux.org" target="_blank"><span class="label gnu-linux">GNU/Linux+</span></a> <a href="https://meet.jit.si" target="_blank"><span class="label jitsi-meet">Jitsi Meet</span></a> <a href="https://pad.riseup.net" target="_blank"><span class="label etherpad">Etherpad</span></a> <a href="https://share.riseup.net" target="_blank"><span class="label up1">Up1</span></a></p>
+			</div>
+		</div>
+	</div><!-- Directory Entry -->
+	<div class="col-lg-7 entry">
+		<div class="media">
+			<a class="pull-left" href="https://mikekwet.com" target="_blank"><img alt="Michael Kwet" class="media-object dp img-circle photo" src="img/photos/michael-kwet.jpg"></a>
+			<div class="media-body">
+				<h4 class="media-heading">Michael Kwet <small><a class="organization" href="https://www.law.yale.edu/isp" target="_blank">Information Society Project at YLS</a></small></h4>
+				<h5><a href="https://privacylab.yale.edu/about" target="_blank"><img alt="Privacy Lab" class="privacylab-icon" src="img/icons/icon-privacylab-shield.svg">Lab Coordinator</a>, Scholar <span class="website">🌐 <a href="https://mikekwet.com" target="_blank">https://mikekwet.com</a></span></h5>
+				<hr class="divider">
+				<p>Visiting Fellow at ISP. Organizes workshops at the Privacy Lab and assists with training Privacy Lab participants.</p>
+				<p><a href="https://www.enigmail.net" target="_blank"><img alt="GPG" class="icon" src="img/icons/icon-gpg.svg"></a><strong>PGP/GPG:</strong> <a href="mailto:mike@mikekwet.com">mike@mikekwet.com</a><br>
+				<a class="gpg-fingerprint" href="http://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x685B992BCAFA7AAC" target="_blank">B7D5 4180 7D04 DBBD 7571 53AB 685B 992B CAFA 7AAC</a></p>
+				<p class="ask-me">❓ <strong>Ask Me:</strong> <a href="https://ricochet.im" target="_blank"><img alt="Ricochet" class="icon" src="img/icons/icon-ricochet.svg">Ricochet</a> <a href="https://crypto.cat" target="_blank"><img alt="Cryptocat" class="icon" src="img/icons/icon-cryptocat.svg">Cryptocat</a> <a href="https://tox.chat" target="_blank"><img alt="Tox" class="icon" src="img/icons/icon-tox.svg">Tox</a></p>
+				<p class="toolkit">🛠 <strong>Toolkit:</strong> <a href="https://torproject.org" target="_blank"><span class="label toolkit-tor">Tor+</span></a> <a href="https://getgnulinux.org" target="_blank"><span class="label gnu-linux">GNU/Linux+</span></a> <a href="https://meet.jit.si" target="_blank"><span class="label jitsi-meet">Jitsi Meet</span></a> <a href="https://pad.riseup.net" target="_blank"><span class="label etherpad">Etherpad</span></a> <a href="https://share.riseup.net" target="_blank"><span class="label up1">Up1</span></a></p>
+			</div>
+		</div>
+	</div><!-- Directory Entry -->
+	<div class="col-lg-7 entry">
+		<div class="media">
+			<a class="pull-left" href="https://law.yale.edu/mfia" target="_blank"><img alt="Hannah Bloch-Wehba" class="media-object dp img-circle photo" src="img/photos/hannah-bloch-wehba.jpg"></a>
+			<div class="media-body">
+				<h4 class="media-heading">Hannah Bloch-Wehba <small><a class="organization" href="https://www.law.yale.edu/mfia" target="_blank">MFIA Clinic</a> <a href="https://eff.org" target="_blank"><img alt="icon" class="affiliation-icon" src="img/icons/icon-eff.svg"></a></small></h4>
+				<h5><a href="https://privacylab.yale.edu/about" target="_blank"><img alt="Privacy Lab" class="privacylab-icon" src="img/icons/icon-privacylab-shield.svg">Privacy Trainer</a>, Scholar <span class="website">🌐 <a href="https://law.yale.edu/mfia" target="_blank">https://law.yale.edu/mfia</a></span></h5>
+				<hr class="divider">
+				<p>Supervising attorney and Stanton Foundation First Amendment Fellow at MFIA Clinic.</p><img alt="GPG" class="icon" src="img/icons/icon-gpg.svg"><strong>PGP/GPG:</strong> <a href="mailto:hannah.bloch-wehba@ylsclinics.org">hannah.bloch-wehba@ylsclinics.org</a><br>
+				<a class="gpg-fingerprint" href="http://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x9755toolkit-torE35548B623" target="_blank">AEE0 A11F 5CDD 42A2 AF00 ask-meFD 9755 toolkit-torE3 5548 B623</a>
+				<p class="ask-me">❓ <strong>Ask Me:</strong> <a href="https://whispersystems.org" target="_blank"><img alt="Signal/Noise" class="icon" src="img/icons/icon-signal.svg">Signal/Noise</a></p>
+				<p class="toolkit">🛠 <strong>Toolkit:</strong> <a href="https://law.yale.edu/mfia" target="_blank"><span class="label legal-clinic">Legal Clinic</span></a> <a href="https://meet.jit.si" target="_blank"><span class="label jitsi-meet">Jitsi Meet</span></a> <a href="https://pad.riseup.net" target="_blank"><span class="label etherpad">Etherpad</span></a> <a href="https://share.riseup.net" target="_blank"><span class="label up1">Up1</span></a></p>
+			</div>
+		</div>
+	</div><!-- Directory Entry -->
+	<div class="col-lg-7 entry">
+		<div class="media">
+			<a class="pull-left" href="https://crootof.com"><img alt="Rebecca Crootof" class="media-object dp img-circle photo" src="img/photos/rebecca-crootof.jpg"></a>
+			<div class="media-body">
+				<h4 class="media-heading">Rebecca Crootof <small><a class="organization" href="https://www.law.yale.edu/isp" target="_blank">Information Society Project at YLS</a></small></h4>
+				<h5>Lecturer, Scholar <span class="website">🌐 <a href="https://crootof.com" target="_blank">https://crootof.com</a></span></h5>
+				<hr class="divider">
+				<p>Lecturer in Law and Research Scholar, Yale Law School; Executive Director, Information Society Project.</p><img alt="GPG" class="icon" src="img/icons/icon-gpg.svg"><strong>PGP/GPG:</strong> <a href="mailto:rcrootof@gmail.com">rcrootof@gmail.com</a><br>
+				<a class="gpg-fingerprint" href="http://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0x63AB6EB78F921967" target="_blank">09A9 FF38 3475 D2BB A86D 117C 63AB 6EB7 8F92 1967</a>
+				<p class="ask-me">❓ <strong>Ask Me:</strong> <a href="https://whispersystems.org" target="_blank"><img alt="Signal/Noise" class="icon" src="img/icons/icon-signal.svg">Signal/Noise</a></p>
+				<p class="toolkit">🛠 <strong>Toolkit:</strong> <a href="https://torproject.org" target="_blank"><span class="label toolkit-tor">Tor</span></a> <a href="https://pad.riseup.net" target="_blank"><span class="label etherpad">Etherpad</span></a> <a href="https://share.riseup.net" target="_blank"><span class="label up1">Up1</span></a></p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="col-lg-7 entry">
+			<div class="media">
+				<div class="media-body">
+					<p><a href="#top">&uarr; Back to top</a> | <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fyaleprivacylab.github.io%2Fprivacylab-directory%2Findex.html" target="_blank">Valid HTML</a> | <a href="weblabels.html" target="blank">JS &amp; CSS Licensing Info</a> | <a href="https://github.com/privacylab/privacylab-directory" target="_blank">Complete Source Code</a> | <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU Affero GPLv3</a> or later</p><br>
+					<p>This page is hosted at: <a href="https://privacylab.github.io/privacylab-directory/index.html">https://privacylab.github.io/privacylab-directory/index.html</a> &nbsp;It has been signed with the Yale Privacy Lab PGP/GPG private key and may be verified using the <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xE2F46765F3A79924" target="_blank">public key</a>. If you have trust in that key you can verify that this page has not been tampered with by downloading the file <a href="https://privacylab.github.io/privacylab-directory/index.html.gpg" target="_blank">https://privacylab.github.io/privacylab-directory/index.html.gpg</a> and running the <a href="https://www.gnupg.org/gph/en/manual.html#AEN136" target="_blank">command</a>:</p>
+					<pre>gpg --verify index.html.gpg</pre><br>
+					SHA-512 Checksums: <a href="https://privacylab.github.io/privacylab-directory/index.html.sha512sum" target="_blank">index.html</a> | <a href="https://privacylab.github.io/privacylab-directory/index.html.gpg.sha512sum" target="_blank">index.html.gpg</a>
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

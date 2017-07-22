@@ -26,6 +26,10 @@ For more information, read the detailed description on the Yale Privacy Lab webs
 [View this example](https://seandiggity.github.io/privacylab-directory/example.html) or browse the directory on the Yale Privacy Lab website:
 [https://privacylab.yale.edu/directory](https://privacylab.yale.edu/directory)
 
+## Verification
+
+Each HTML file in this directory has been signed using the private [Privacy Lab PGP/GPG key](https://pgp.mit.edu/pks/lookup?op=vindex&search=0xE2F46765F3A79924). If you have trust in that key you can verify that this page has not been tampered with 
+
 # Licensing
 [Bootstrap](https://getbootstrap.com) and [jQuery](https://jquery.com/) are released under the [MIT/Expat license](https://opensource.org/licenses/MIT).
 

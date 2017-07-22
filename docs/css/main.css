@@ -1,0 +1,83 @@
+   .media {
+   	/*box-shadow:0px 0px 4px -2px #000;*/
+   	margin: 20px 0;
+   	padding: 30px;
+   }
+   .photo {
+   	width: 100px;
+   	height: 100px;
+   }
+   .dp {
+   	border: 10px solid #eee;
+   	transition: all 0.2s ease-in-out;
+   }
+   .dp:hover {
+   	border: 2px solid #eee;
+   	transform: rotate(360deg);
+   	-ms-transform: rotate(360deg);
+   	-webkit-transform: rotate(360deg);
+   	/*-webkit-font-smoothing:antialiased;*/
+   }
+   span.up1 {
+   	background-color: #333;
+   	margin: 0 6px 0 0;
+   }
+   span.etherpad {
+   	background-color: #D00000;
+   	margin: 0 6px 0 0;
+   }
+   span.jitsi-meet {
+   	background-color: #3397C3;
+   	margin: 0 6px 0 0;
+   }
+   span.gnu-linux {
+   	background-color: #46637D;
+   	margin: 0 6px 0 0;
+   }
+   span.toolkit-tor {
+   	background-color: #7D4698;
+   	margin: 0 6px 0 0;
+   }
+   span.legal-clinic {
+   	background-color: #00356B;
+   	margin: 0 6px;
+   }
+   p.toolkit {
+   	margin-top: 18px;
+   }
+   p.ask-me {
+   	margin-top: 18px;
+   }
+   a.gpg-fingerprint {
+   	margin-left: 36px;
+   }
+   hr.divider {
+   	margin: 8px auto
+   }
+   span.website {
+   	margin: 0 6px;
+   }
+   img.icon {
+   	width: 24px;
+   	height: 24px;
+   	margin: 0 6px
+   }
+   img.privacylab-icon {
+   	width: 24px;
+   	height: 24px;
+   	margin: 0 6px
+   }
+   img.affiliation-icon {
+   	width: 24px;
+   	height: 24px;
+   	margin: 0 6px
+   }
+   a.organization {
+   	margin: 0 6px;
+   }
+   td.weblabels-tablecell {
+   	font-family: sans-serif;
+   	text-align: left;
+   	width: 15%;
+   	padding: 8px 4px;
+   }

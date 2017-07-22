@@ -1,93 +1,47 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <title>Yale Privacy Lab Directory</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/vertical.css" rel="stylesheet">
-<style>
-   .media
-    {
-        /*box-shadow:0px 0px 4px -2px #000;*/
-        margin: 20px 0;
-        padding:30px;
-    }
-    .dp
-    {
-        border:10px solid #eee;
-        transition: all 0.2s ease-in-out;
-    }
-    .dp:hover
-    {
-        border:2px solid #eee;
-        transform:rotate(360deg);
-        -ms-transform:rotate(360deg);  
-        -webkit-transform:rotate(360deg);  
-        /*-webkit-font-smoothing:antialiased;*/
-    }
-</style>
-
+	<meta charset="UTF-8">
+	<title>Example: Yale Privacy Lab Directory</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script> 
+	<script src="js/bootstrap-3.3.7.min.js" type="text/javascript"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-
-<div class="row">
-
-
-    <div class="col-lg-12">
-        <div class="media">
-            <a class="pull-left" href="https://privacylab.yale.edu" target="_blank">
-                <img class="media-object dp img-circle" src="img/photos/quilly-gilly.jpg" alt="Quilly Gilly" style="width: 100px;height:100px;">
-            </a>
-            <div class="media-body">
-                <h4 class="media-heading">Quilly Gilly <small> <a href="https://www.law.yale.edu/mfia" target="_blank" style="margin:0 6px;">MFIA Clinic</a> 
-
-                <a href="https://eff.org" target="_blank"><img src="img/icons/icon-eff.svg" style="width:24px;height:24px;margin:0 6px" /></a>
-
-                <a href="http://wikimedia.org" target="_blank"><img src="img/icons/icon-wikimedia.svg" style="width:24px;height:24px;margin:0 6px" /></a>
-
-                <a href="http://makehaven.org" target="_blank"><img src="img/icons/icon-makehaven.svg" style="width:24px;height:24px;margin:0 6px" /></a>
-
-                </small></h4>
-                <h5>Attorney, Scholar 
-                        <span style="margin:0 6px;">🌐 <a href="https://privacylab.yale.edu" target="_blank">https://privacylab.yale.edu</a></span></h5>
-                <hr style="margin:8px auto">
-
-                <p>Privacy Lab mascot and affiliate of the Information Society Project.</p>
-
-                <p><a href="https://www.enigmail.net" target="_blank"><img src="img/icons/icon-gpg.svg" style="width:24px;height:24px;margin:0 6px" /></a><strong>PGP/GPG:</strong> <a href="mailto:privacylab@yale.edu">privacylab@yale.edu</a> <br><a href="http://pgp.mit.edu/pks/lookup?op=vindex&search=0xE2F46765F3A79924" target="_blank" style="margin-left: 36px;">4B77 F15F 4046 621A 62CF C558 E2F4 6765 F3A7 9924</a></p>
-                
-                <p><a href="https://wire.com" target="_blank"><img src="img/icons/icon-wire.svg" style="width:24px;height:24px;margin:0 6px" /></a><a href="https://wire.com" target="_blank"><strong>Wire:</strong></a> @privacylab</p>
-
-                <p style="margin-top: 18px;">❓ <strong>Ask Me: </strong>
-                        <a href="https://whispersystems.org" target="_blank"><img src="img/icons/icon-signal.svg" style="width:24px;height:24px;margin:0 6px" />Signal/Noise</span></a>
-						<a href="https://riot.im" target="_blank"><img src="img/icons/icon-riot.svg" style="width:24px;height:24px;margin:0 6px" />Riot</a>
-                        <a href="https://ricochet.im" target="_blank"><img src="img/icons/icon-ricochet.svg" style="width:24px;height:24px;margin:0 6px" />Ricochet</a>
-                        <a href="https://crypto.cat" target="_blank"><img src="img/icons/icon-cryptocat.svg" style="width:24px;height:24px;margin:0 6px" />Cryptocat</a>
-
-		</p>
-
-                <p style="margin-top: 18px;">🛠 <strong>Toolkit: </strong>
-                        <a href="https://law.yale.edu/mfia" target="_blank"><span class="label" style="background-color:#00356B;margin:0 6px;">Legal Clinic</span></a>
-                        <a href="https://torproject.org" target="_blank"><span class="label" style="background-color:#7D4698;margin:0 6px 0 0;">Tor+</span></a>
-                        <a href="https://getgnulinux.org" target="_blank"><span class="label" style="background-color:#46637D;margin:0 6px 0 0;">GNU/Linux+</span></a>
-                        <a href="https://meet.jit.si" target="_blank"><span class="label" style="background-color:#3397C4;margin:0 6px 0 0;">Jitsi Meet</span></a>
-                        <a href="https://pad.riseup.net" target="_blank"><span class="label" style="background-color:#D00000;margin:0 6px 0 0;">Etherpad</span></a>
-                        <a href="https://share.riseup.net" target="_blank"><span class="label" style="background-color:#333;margin:0 6px 0 0;">Up1</span></a>
-                        </div>
-
-                </p>
-            </div>
-        </div>
-
-    </div>
-
-    
-
-</div>
-
-    <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
+	<a id="top" name="top">
+	<div class="row">
+	<!-- Directory Entry -->
+	<div class="col-lg-7 entry">
+		<div class="media">
+			<a class="pull-left" href="https://privacylab.yale.edu/directory-guide" target="_blank"><img alt="Quilly Gilly" class="media-object dp img-circle photo" src="img/photos/quilly-gilly.jpg"></a>
+	<div class="media-body">
+		<h4 class="media-heading">Quilly Gilly <small><a class="organization" href="https://www.law.yale.edu/mfia" target="_blank">MFIA Clinic</a> <a href="https://eff.org" target="_blank"><img alt="Electronic Frontier Foundation" class="affiliation-icon" src="img/icons/icon-eff.svg"></a> <a href="http://wikimedia.org" target="_blank"><img alt="Wikimedia Foundation" class="affiliation-icon" src="img/icons/icon-wikimedia.svg"></a> <a href="http://makehaven.org" target="_blank"><img alt="MakeHaven" class="affiliation-icon" src="img/icons/icon-makehaven.svg"></a></small></h4>
+		<h5>Attorney, Scholar <span class="website">🌐 <a href="https://privacylab.yale.edu" target="_blank">https://privacylab.yale.edu</a></span></h5>
+		<hr class="divider">
+		<p>Privacy Lab mascot and affiliate of the Information Society Project.</p>
+		<p><a href="https://www.enigmail.net" target="_blank"><img alt="GPG" class="icon" src="img/icons/icon-gpg.svg"></a><strong>PGP/GPG:</strong> <a href="mailto:privacylab@yale.edu">privacylab@yale.edu</a><br>
+		<a class="gpg-fingerprint" href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xE2F46765F3A79924" target="_blank">4B77 F15F 4046 621A 62CF divider58 E2F4 6765 F3A7 9924</a></p>
+		<p><a href="https://wire.com" target="_blank"><img alt="Wire" class="icon" src="img/icons/icon-wire.svg"></a><a href="https://wire.com" target="_blank"><strong>Wire:</strong></a> @privacylab</p>
+		<p class="ask-me">❓ <strong>Ask Me:</strong> <a href="https://whispersystems.org" target="_blank"><img alt="Signal/Noise" class="icon" src="img/icons/icon-signal.svg">Signal/Noise</a> <a href="https://riot.im" target="_blank"><img alt="Riot.im" class="icon" src="img/icons/icon-riot.svg">Riot</a> <a href="https://ricochet.im" target="_blank"><img alt="Ricochet" class="icon" src="img/icons/icon-ricochet.svg">Ricochet</a> <a href="https://crypto.cat" target="_blank"><img alt="Cryptocat" class="icon" src="img/icons/icon-cryptocat.svg">Cryptocat</a></p>
+		<p class="toolkit">🛠 <strong>Toolkit:</strong> <a href="https://law.yale.edu/mfia" target="_blank"><span class="label legal-clinic">Legal Clinic</span></a> <a href="https://torproject.org" target="_blank"><span class="label toolkit-tor">Tor+</span></a> <a href="https://getgnulinux.org" target="_blank"><span class="label gnu-linux">GNU/Linux+</span></a> <a href="https://meet.jit.si" target="_blank"><span class="label jitsi-meet">Jitsi Meet</span></a> <a href="https://pad.riseup.net" target="_blank"><span class="label etherpad">Etherpad</span></a> <a href="https://share.riseup.net" target="_blank"><span class="label up1">Up1</span></a></p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="col-lg-7 entry">
+			<div class="media">
+				<div class="media-body">
+					<p><a href="#top">&uarr; Back to top</a> | <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fyaleprivacylab.github.io%2Fprivacylab-directory%2Fexample.html" target="_blank">Valid HTML</a> | <a href="weblabels.html" target="blank">JS &amp; CSS Licensing Info</a> | <a href="https://github.com/privacylab/privacylab-directory" target="_blank">Complete Source Code</a> | <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU Affero GPLv3</a> or later</p><br>
+					<p>This page is hosted at: <a href="https://privacylab.github.io/privacylab-directory/example.html">https://privacylab.github.io/privacylab-directory/example.html</a> &nbsp;It has been signed with the Yale Privacy Lab PGP/GPG private key and may be verified using the <a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;search=0xE2F46765F3A79924" target="_blank">public key</a>. If you have trust in that key you can verify that this page has not been tampered with by downloading the file <a href="https://privacylab.github.io/privacylab-directory/example.html.gpg" target="_blank">https://privacylab.github.io/privacylab-directory/example.html.gpg</a> and running the <a href="https://www.gnupg.org/gph/en/manual.html#AEN136" target="_blank">command</a>:</p>
+					<pre>gpg --verify example.html.gpg</pre><br>
+					SHA-512 Checksums: <a href="https://privacylab.github.io/privacylab-directory/example.html.sha512sum" target="_blank">example.html</a> | <a href="https://privacylab.github.io/privacylab-directory/example.html.gpg.sha512sum" target="_blank">example.html.gpg</a>
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
