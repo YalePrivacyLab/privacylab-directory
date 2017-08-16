@@ -2,7 +2,7 @@ body {
 	font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
 	font-weight: 400;
 	background-color: #fff;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .nav>li>a.userdd {
 	padding: 5px 15px
@@ -14,8 +14,8 @@ body {
 	margin: 16px auto 0 auto;
 }
 .userprofile .userpic {
-	height: 100px;
-	width: 100px;
+	height: 140px;
+	width: 140px;
 	clear: both;
 	margin: 0 auto;
 	display: block;
@@ -388,4 +388,8 @@ td.weblabels-tablecell {
 }
 .indent-line02 {
 	margin-left: 74px;
+}
+div.row {
+	max-width:800px;
+	margin: 0;
 }
