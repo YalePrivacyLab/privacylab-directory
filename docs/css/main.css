@@ -390,6 +390,10 @@ td.weblabels-tablecell {
 	margin-left: 74px;
 }
 div.row {
-	max-width:800px;
+	max-width:770px;
 	margin: 0;
+}
+.container {
+	max-width: 780px;
+	margin: 0 auto;
 }
