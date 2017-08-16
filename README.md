@@ -31,6 +31,7 @@ For more information, read the detailed description on the Yale Privacy Lab webs
 HTML files containing directory entries have been signed with the Yale Privacy Lab PGP/GPG private key and may be verified using the [public key](https://pgp.mit.edu/pks/lookup?op=vindex&search=0xE2F46765F3A79924).  SHA-512 checksums are also published for each document and PGP/GPG signature file.
 
 # Licensing
+
 [Bootstrap](https://getbootstrap.com), [jQuery](https://jquery.com/) and [Responsive iFrame](https://npr.github.io/responsiveiframe/) are released under the [MIT/Expat license](https://opensource.org/licenses/MIT).  The directory uses [JavaScript Web Labels](https://www.gnu.org/software/librejs/manual/librejs.html#JavaScript-Web-Labels) for LibreJS.  Refer to `docs/weblabels.html` for links to non-minified JS and CSS source code.
 
 Image sources are detailed in `docs/img/SOURCES`.
