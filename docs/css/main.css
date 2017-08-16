@@ -1,7 +1,7 @@
 body {
 	font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
 	font-weight: 400;
-	background-color: #f0f3f5;
+	background-color: #fff;
 	margin-top: 40px;
 }
 .nav>li>a.userdd {
@@ -249,6 +249,7 @@ body {
 	border: 0;
 	display: inline-block;
 	width: 100%;
+	background-color: #FDFDFD;
 }
 .panel-footer {
 	padding: 10px 15px;
