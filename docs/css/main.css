@@ -389,7 +389,3 @@ td.weblabels-tablecell {
 .indent-line02 {
 	margin-left: 74px;
 }
-.container, div.row {
-	min-width: 790px;
-	max-width: 100%;
-}
